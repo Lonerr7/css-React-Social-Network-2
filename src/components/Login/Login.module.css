@@ -1,0 +1,66 @@
+input {
+  display: block;
+}
+
+.loginPage {
+  padding: 20px;
+}
+
+.loginPage__form {
+  width: 300px;
+}
+
+.loginPage__formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.loginPage__formControl_checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.loginPage__formLabel {
+  margin-bottom: 5px;
+  margin-right: 35px;
+}
+
+.loginPage__formInput {
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 15px;
+}
+
+.loginPage__formInputBox {
+  display: flex;
+}
+
+.loginPage__fromErrorMsg {
+  color: red;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.loginPage__formBtn {
+  display: block;
+  font-size: 14px;  
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 7px 25px;
+  border-radius: 15px;
+}
+
+.loginPage__formBtn:hover {
+  text-decoration: underline;
+}
+
+.loginTitle {
+  margin-bottom: 20px;
+}
+
+.serverError {
+  color: red;
+  margin-bottom: 20px;
+}

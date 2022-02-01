@@ -1,0 +1,7 @@
+.dialogs__item {
+  margin-bottom: 7px;
+}
+
+.dialogs__item:last-child {
+  margin-bottom: 0;
+}

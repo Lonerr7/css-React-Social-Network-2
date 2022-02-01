@@ -1,0 +1,49 @@
+.logo {
+  width: 30px;
+}
+
+.header {
+  grid-area: h;
+  background-color: rgb(78, 233, 181);
+  border-radius: 0px 0px 15px 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginLink {
+  display: block;
+  font-size: 14px;  
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 7px;
+}
+
+.loginLink,
+.loginName {
+  font-weight: 500;
+}
+
+.loginControls {
+  display: flex;
+  align-items: center;
+}
+
+.loginName {
+  margin-right: 20px;
+}
+
+.logoutBtn {
+  display: block;
+  font-size: 14px;  
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 0;
+  padding: 7px;
+}
+
+.logoutBtn:hover {
+  text-decoration: underline;
+}

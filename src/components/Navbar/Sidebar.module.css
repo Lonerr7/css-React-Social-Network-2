@@ -1,0 +1,23 @@
+.navbar {
+  border-radius: 15px;
+  grid-area: n;
+  background-color: rgb(154, 101, 223);
+  padding: 20px;
+}
+
+.navbar__nav {
+  margin-bottom: 30px;
+}
+
+.navbar__listItem {
+  margin-bottom: 3px;
+}
+
+.link {
+  display: inline-block;
+}
+
+.activeLink {
+  font-weight: 500;
+  display: inline-block;
+}

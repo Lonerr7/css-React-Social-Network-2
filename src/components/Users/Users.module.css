@@ -1,0 +1,41 @@
+.user {
+  margin-bottom: 30px;
+  border: 1px solid black;
+  max-width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user:last-child {
+  margin-bottom: 0;
+}
+
+.user__avatarBox {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.user__avatar_big {
+  width: 100%;
+}
+
+.userBtn {
+  display: block;
+  font-size: 14px;  
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 3px;
+  width: 100%;
+}
+
+.user__name,
+.user__status {
+  margin-bottom: 6px;
+}
+
+.usersWrapper {
+  padding: 20px;
+}

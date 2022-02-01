@@ -1,0 +1,27 @@
+.myPosts {
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.newPostBox {
+  margin-bottom: 30px;
+}
+
+.addPostBtn {
+  display: block;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.addPostBtn:hover {
+  text-decoration: underline;
+}
+
+.postsTextarea {
+  display: block;
+  margin-bottom: 20px;
+  min-width: 300px;
+  padding: 10px;
+}
